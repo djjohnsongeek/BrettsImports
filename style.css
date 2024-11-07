@@ -9,3 +9,7 @@
 .mt-80 {
     margin-top: 80px;
 }
+
+.border-dashed-blue {
+    border: 2px dashed #2060DF
+}

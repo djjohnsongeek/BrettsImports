@@ -2,6 +2,10 @@
     text-align: center;
 }
 
+.text-light {
+    color: white;
+}
+
 .no-bottom-margin {
     margin-bottom: 0px;
 }
@@ -14,18 +18,40 @@
     border: 2px dashed #2060DF
 }
 
-#about-article {
-    background-image: url("images/shop_banner_distance_faded.png");
+#shop-article-image {
+    background-position: 30% 75%;
+    background-image: url("images/shop_banner.png");
     background-color: #2060DF;
     background-repeat: no-repeat;
-    background-position: center; 
     height: 336px;
 }
 
-#about-article-content {
-    margin: auto;
-    width: 930px;
-    padding: 10px;
-    background-color: whitesmoke;
+.badge {
+    background-color: #2060DF;
     border-radius: 5px;
+    padding: 5px;
+    color: white;
+}
+
+#about-article{
+    height: 336px;
+}
+
+.size-emphasis {
+    font-size: 1.25rem;
+}
+
+article {
+    border-radius: 2px;
+}
+
+.contact-bar {
+    padding: 8px 0px 10px 0px;
+    /* border-radius: 2px;
+    border: #2060DF 1px solid; */
+}
+
+.margin-auto {
+    display: block;
+    margin: auto;
 }

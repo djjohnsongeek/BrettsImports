@@ -1,9 +1,15 @@
+:root {
+    --blue: #2060DF;
+    --white: #ffffff;
+    --red: #AF291D;
+}
+
 .text-center {
     text-align: center;
 }
 
 .text-light {
-    color: white;
+    color: var(--white);
 }
 
 .no-bottom-margin {
@@ -15,22 +21,22 @@
 }
 
 .border-dashed-blue {
-    border: 2px dashed #2060DF
+    border: 2px dashed var(--blue);
 }
 
 #shop-article-image {
     background-position: 30% 75%;
     background-image: url("images/shop_banner.png");
-    background-color: #2060DF;
+    background-color: var(--blue);
     background-repeat: no-repeat;
     height: 336px;
 }
 
 .badge {
-    background-color: #2060DF;
+    background-color: var(--blue);
     border-radius: 5px;
     padding: 5px;
-    color: white;
+    color: var(--white);
 }
 
 #about-article{
@@ -39,7 +45,8 @@
 
 .emphasis {
     font-size: 1.25rem;
-    text-shadow: 0px 0px 1px #AF291D;
+    color: var(--blue);
+    text-shadow: 0px 0px 1px var(--red)
 }
 
 article {
@@ -48,8 +55,6 @@ article {
 
 .contact-bar {
     padding: 8px 0px 10px 0px;
-    /* border-radius: 2px;
-    border: #2060DF 1px solid; */
 }
 
 .margin-auto {
@@ -58,8 +63,7 @@ article {
 }
 
 .page-header {
-    color: #2060DF;
-    /* text-shadow: 0px 0px 1px #C52F21; */
+    color: var(--blue);
     font-family: "Spectral SC", serif;
     font-weight: 700;
     font-size: 3rem;
@@ -67,8 +71,7 @@ article {
 }
 
 .page-subheader {
-    color: #AF291D;
-    /* text-shadow: 0px 0px 1px #2060DF; */
+    color: var(--red);
     font-family: "Spectral SC", serif;
     font-weight: 800;
     font-style: normal;

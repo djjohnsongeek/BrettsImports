@@ -60,6 +60,11 @@
     color: var(--white);
 }
 
+.background-red {
+    background-color: var(--red);
+    color: var(--white);
+}
+
 #about-article{
     line-height: 1.5;
 }
@@ -104,6 +109,14 @@ article {
     font-weight: 800;
     font-style: normal;
 }
+
+.brett-grid {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+}   
 
 /* ############ OVERIDE PICO ############ */
 

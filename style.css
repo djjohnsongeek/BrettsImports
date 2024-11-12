@@ -124,7 +124,11 @@ section {
     padding-bottom: 40px;
 }
 
-
+#posts-section {
+    padding: 10px;
+    border: 2px dashed var(--blue);
+    border-radius: 3px;
+}
 
 /* ########### SLIDE SHOW ############ */
 

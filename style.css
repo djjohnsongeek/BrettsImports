@@ -116,7 +116,7 @@ article {
 
 .brett-grid {
     display: grid;
-    grid-template-columns: 1fr 6fr;
+    grid-template-columns: 6fr 2fr;
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
@@ -169,7 +169,6 @@ section {
 /* Hide the images by default */
 .mySlides {
   display: none;
-  background-color: #525F7A;
 }
 
 

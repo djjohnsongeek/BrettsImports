@@ -47,6 +47,10 @@
     margin-top: 40px;
 }
 
+.p-10 {
+    padding: 10px;
+}
+
 .icon-link {
     text-decoration: none;
 }
@@ -116,7 +120,22 @@ article {
     grid-template-rows: 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 0px;
-}   
+}
+
+#fb-post-summary {
+    font-size: 29.75px;
+    font-weight: 700;
+    font-family: var(--pico-font-family);
+    padding: var(--pico-block-spacing-vertical) var(--pico-block-spacing-horizontal);
+    box-shadow: var(--pico-card-box-shadow);
+    border: 2px solid transparent;
+    border-radius: 3px;
+}
+
+#fb-post-summary:hover {
+    border: var(--blue) 2px solid;
+    border-radius: 3px;
+}
 
 /* ############ OVERIDE PICO ############ */
 

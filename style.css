@@ -114,11 +114,11 @@ article {
     font-style: normal;
 }
 
-.brett-grid {
+.origin-grid {
     display: grid;
-    grid-template-columns: 6fr 2fr;
+    grid-template-columns: 50% 25% 25%;
     grid-template-rows: 1fr;
-    grid-column-gap: 20px;
+    grid-column-gap: 5px;
     grid-row-gap: 0px;
 }
 
@@ -148,31 +148,15 @@ section {
     border: 2px dashed var(--blue);
     border-radius: 3px;
 }
-
-/* ########### SLIDE SHOW ############ */
-
-.slide-show-image {
-    width: 100%;
-    border: 2px var(--white) solid;
-    border-radius: 3px;
+.slideshow-image {
+    /* height: 400px; */
 }
-
-* {box-sizing:border-box}
-
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
 
 /* Fading animation */
+
+
+
+
 .fade {
   animation-name: fade;
   animation-duration: 4s;

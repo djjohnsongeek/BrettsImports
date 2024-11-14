@@ -18,7 +18,7 @@ class HomePage {
     }
 
     static showSlides() {
-        let slides = document.getElementsByClassName("mySlides");
+        let slides = document.getElementsByClassName("slideshow-image");
 
         // Hide All
         for (let i = 0; i < slides.length; i++) {
@@ -32,8 +32,7 @@ class HomePage {
             HomePage.slideIndex = 0;
         }
 
-        slides[HomePage.slideIndex].style.display = "block";
-        console.log(slides[HomePage.slideIndex]);
+        slides[HomePage.slideIndex].style.display = "";
         setTimeout(HomePage.showSlides, 8000);
     }
 }

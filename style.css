@@ -148,14 +148,12 @@ section {
     border: 2px dashed var(--blue);
     border-radius: 3px;
 }
+
 .slideshow-image {
-    /* height: 400px; */
+    max-height: 300px;
 }
 
 /* Fading animation */
-
-
-
 
 .fade {
   animation-name: fade;

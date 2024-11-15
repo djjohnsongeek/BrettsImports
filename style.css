@@ -1,5 +1,6 @@
 :root {
     --blue: #2060DF;
+    --bluefaded: #c8cfde;
     --white: #ffffff;
     --red: #AF291D;
     --grey: #EFF1F4;
@@ -87,6 +88,15 @@
 
 article {
     border-radius: 3px;
+
+}
+
+.article-border {
+    border: var(--bluefaded) 1px solid;
+}
+
+.pico-box-shadow {
+    box-shadow: var(--pico-card-box-shadow);
 }
 
 .contact-bar {
